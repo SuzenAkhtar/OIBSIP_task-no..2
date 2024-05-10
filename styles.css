@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('portfolio.jpeg'); /* Replace 'portfolio.jpeg' with your image file */
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    border: 10px solid #09a0fe; /* Border color and thickness */
+    padding: 20px; /* Add some padding inside the border */
+}
+
+header {
+    background-color: rgb(9, 16, 22);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    /* Align items (including the photo) vertically in the center */
+    align-items: center;
+    /* Adjust spacing between items */
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+header img {
+    /* Set the maximum width of the photo */
+    max-width: 400px;
+    /* Set the maximum height of the photo */
+    max-height: 200px;
+    /* Add some margin to the top and bottom to provide spacing */
+    border: 5px solid #0894fe;
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: skyblue;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 5px;
+}
+
+ul {
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
